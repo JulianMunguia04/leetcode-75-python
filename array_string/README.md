@@ -11,7 +11,7 @@ This folder contains my Python solutions for problems under the **Arrays / Hashi
 
 ---
 
-## 📝 Prerequisites
+## 📋 Prerequisites
 
 - Dynamic Arrays
 - ...
@@ -24,6 +24,20 @@ This folder contains my Python solutions for problems under the **Arrays / Hashi
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do
+
+---
+
+## Notes
+
+#### Python Lists
+Python lists are dynamic arrays that automatically resize
+```python
+nums = []
+nums.append(1)
+nums.append(2)
+nums.append(3)
+```
+Memory grows automatically.
 
 ---
 

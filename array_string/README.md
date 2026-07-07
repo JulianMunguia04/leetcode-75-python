@@ -27,7 +27,7 @@ This folder contains my Python solutions for problems under the **Arrays / Hashi
 
 ---
 
-## Notes
+## 📝 Notes
 
 #### Python Lists
 Python lists are dynamic arrays that automatically resize

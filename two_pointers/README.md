@@ -1,4 +1,4 @@
-# 🧩 Sliding Window
+# 🧩 Two Pointers
 
 This folder contains my Python solutions for problems under the **Two Pointers** section of the [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/).
 

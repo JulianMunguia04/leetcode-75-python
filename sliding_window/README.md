@@ -31,6 +31,9 @@ This folder contains my Python solutions for problems under the **Two Pointers**
 ## 📝 Notes
 
 #### Two Pointers
+The Two Pointer Technique is an algorithmic pattern where two variables (pointers/indexes) traverse a data structure (usually an array or string) instead of using nested loops.
+
+Instead of a nested loop which is O(n^2) we can do two pointers as follows:
 
 ---
 

@@ -19,7 +19,7 @@ This folder contains my Python solutions for problems under the **Sliding Window
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Move Zeroes | 🟢 Easy | `move_zeroes.py` | Two Pointers | ✅ |
+| 1 | Maximum Average Subarray I | 🟢 Easy | `maximum_average_subarray_one.py` | Two Pointers | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

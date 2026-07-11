@@ -35,9 +35,10 @@ Instead of checking every possible window from scratch (O(n²)), we:
 - expand the window
 - shrink the window when needed
 - update our answer as we move
+
 Result:
 
--O(n) instead of O(n²)
+- O(n) instead of O(n²)
 
 ##### When to use sliding window
 Find questions like

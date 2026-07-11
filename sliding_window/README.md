@@ -63,4 +63,4 @@ Find questions like
 Run any problem file directly using Python:
 
 ```bash
-python3 move_zeroes.py
+python3 maximum_average_subarray_one.py

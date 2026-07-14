@@ -20,7 +20,7 @@ This folder contains my Python solutions for problems under the **Hashmap / Set*
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Maximum Average Subarray I | 🟢 Easy | `maximum_average_subarray_one.py` | Two Pointers | ✅ |
+| 1 | Find the Difference of Two Arrays | 🟢 Easy | `find_the_difference_of_two_arrays.py` | Two Pointers | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do
@@ -40,4 +40,4 @@ This folder contains my Python solutions for problems under the **Hashmap / Set*
 Run any problem file directly using Python:
 
 ```bash
-python3 maximum_average_subarray_one.py
+python3 find_the_difference_of_two_arrays.py

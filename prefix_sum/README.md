@@ -21,6 +21,7 @@ This folder contains my Python solutions for problems under the **Prefix Sum** s
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
 | 1 | Find Pivot Index | 🟢 Easy | `find_pivot_index.py` | Prefix Sum | ✅ |
+| 2 | Find the Highest Altitude | 🟢 Easy | `find_the_highest_altitude.py` | Prefix Sum | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

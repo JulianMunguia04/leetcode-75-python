@@ -29,15 +29,7 @@ This folder contains my Python solutions for problems under the **Prefix Sum** s
 
 ## 📝 Notes
 
-#### Python Lists
-Python lists are dynamic arrays that automatically resize
-```python
-nums = []
-nums.append(1)
-nums.append(2)
-nums.append(3)
-```
-Memory grows automatically.
+#### Prefix Sum
 
 ---
 

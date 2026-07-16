@@ -39,4 +39,4 @@ This folder contains my Python solutions for problems under the **Prefix Sum** s
 Run any problem file directly using Python:
 
 ```bash
-python3 greatest_common_divisor_of_strings.py
+python3 find_pivot_index.py

@@ -20,7 +20,7 @@ This folder contains my Python solutions for problems under the **Prefix Sum** s
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Merge Strings Alternately | 🟢 Easy | `greatest_common_divisor_of_strings.py` | String | ✅ |
+| 1 | Find Pivot Index | 🟢 Easy | `find_pivot_index.py` | Prefix Sum | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

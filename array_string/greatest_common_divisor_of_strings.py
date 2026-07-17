@@ -1,11 +1,27 @@
-#Notes
+# 1071 Greatest common divisor of strings
+
+import math
 
 class Solution(object):
-    def mergeAlternately(self, word1, word2):
+    def gcdOfStrings(self, str1, str2):
         """
-        :type word1: str
-        :type word2: str
+        :type str1: str
+        :type str2: str
         :rtype: str
         """
 
-#Time Complexity O(n), n being the count of numbers in nums. ie Linear Time
+        gcd = ""
+
+        if not str1 + str2 == str2+str1:
+            return ""
+
+        gcd_length = math.gcd(len(str1), len(str2))
+
+        for i in range(gcd_length):
+            gcd += str1[i]
+        
+        #or simply return str[:gcd_length]
+        
+        return gcd
+
+#Time Complexity O(n + m)

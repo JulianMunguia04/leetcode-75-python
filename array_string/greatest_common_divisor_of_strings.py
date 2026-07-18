@@ -24,4 +24,4 @@ class Solution(object):
         
         return gcd
 
-#Time Complexity O(n + m)
+#Time Complexity O(n + m), with n being the number of characters in str1 and m for str2

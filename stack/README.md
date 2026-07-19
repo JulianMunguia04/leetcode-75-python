@@ -63,6 +63,22 @@ Every new element asks:
 3. Then push myself
 Think of the stack as a list of **waiting/unresolved items**.
 
+##### General Template
+```python
+stack = []
+
+for item in items:
+
+    while stack and can_resolve(stack[-1], item):
+        stack.pop()
+
+    stack.append(item)
+```
+**Remember:**
+- Resolve first (`while`)
+- Push after
+
+
 ---
 
 ## ⚙️ How to Run

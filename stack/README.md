@@ -32,6 +32,9 @@ This folder contains my Python solutions for problems under the **stack** sectio
 ## 📝 Notes
 
 #### Stack
+##### Last In, First Out
+- Last element added is the first removed
+- Use to keep track of **unfinished work**.
 
 ---
 

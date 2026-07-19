@@ -35,6 +35,7 @@ This folder contains my Python solutions for problems under the **stack** sectio
 ##### Last In, First Out
 - Last element added is the first removed
 - Use to keep track of **unfinished work**.
+- Scan left -> right, storing items until they can be resolved.
 
 ---
 

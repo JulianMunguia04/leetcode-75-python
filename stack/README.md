@@ -56,6 +56,13 @@ if stack:
 
 All time complexity O(1)
 
+##### Stack Mindset
+Every new element asks:
+1. Can I resolve something already on the ask?
+2. If yes, pop until I can't
+3. Then push myself
+Think of the stack as a list of **waiting/unresolved items**.
+
 ---
 
 ## ⚙️ How to Run

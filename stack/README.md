@@ -54,6 +54,8 @@ stack[-1]
 if stack:
 ```
 
+All time complexity O(n)
+
 ---
 
 ## ⚙️ How to Run

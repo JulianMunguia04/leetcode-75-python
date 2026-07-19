@@ -37,6 +37,23 @@ This folder contains my Python solutions for problems under the **stack** sectio
 - Use to keep track of **unfinished work**.
 - Scan left -> right, storing items until they can be resolved.
 
+##### Python Stack
+```python
+stack = []
+
+# Push
+stack.append(x)
+
+# Pop
+stack.pop()
+
+# Peek (top)
+stack[-1]
+
+# Empty
+if stack:
+```
+
 ---
 
 ## ⚙️ How to Run

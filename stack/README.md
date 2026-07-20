@@ -40,6 +40,7 @@ This folder contains my Python solutions for problems under the **stack** sectio
 ##### Python Stack
 ```python
 stack = []
+```
 
 # Push
 stack.append(x)

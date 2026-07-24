@@ -35,15 +35,9 @@ This folder contains my python leetcode solutions for select problems for the to
 
 ## 📝 Notes
 
-#### Python Lists
-Python lists are dynamic arrays that automatically resize
-```python
-nums = []
-nums.append(1)
-nums.append(2)
-nums.append(3)
-```
-Memory grows automatically.
+#### Linked Lists
+
+#### Python Linked Lists
 
 ---
 
@@ -52,4 +46,4 @@ Memory grows automatically.
 Run any problem file directly using Python:
 
 ```bash
-python3 greatest_common_divisor_of_strings.py
+python3 reverse_linked_list.py

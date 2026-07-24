@@ -21,3 +21,5 @@ class Solution(object):
             return True
 
         return False
+        
+# Time Complexity O(n)

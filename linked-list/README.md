@@ -20,7 +20,8 @@ This folder contains my python leetcode solutions for select problems for the to
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Merge Strings Alternately | 🟢 Easy | `greatest_common_divisor_of_strings.py` | String | ✅ |
+| 1 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |
+
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

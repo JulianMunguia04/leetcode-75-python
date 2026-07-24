@@ -22,7 +22,7 @@ This folder contains my python leetcode solutions for select problems for the to
 |---|----------|-------------|------|---------|--------|
 | 1 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |
 | 2 | Middle of the Linked List | 🟢 Easy | `middle_of_the_linked_list.py` | Linked List | ⏳ |
-| 3 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |
+| 3 | Linked List Cycle II | 🟡 Medium | `linked_list_cycle_2.py` | Linked List | ⏳ |
 | 4 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |
 | 5 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |
 | 6 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |

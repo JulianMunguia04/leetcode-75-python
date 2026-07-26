@@ -23,3 +23,5 @@ class Solution(object):
         
         return newHead
         
+# Time Complexity O(n)
+        

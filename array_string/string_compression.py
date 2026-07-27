@@ -29,3 +29,5 @@ cclass Solution(object):
 
         return write
         
+# Time Complexity O(n)
+        

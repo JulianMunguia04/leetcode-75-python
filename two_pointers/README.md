@@ -22,6 +22,8 @@ This folder contains my Python solutions for problems under the **Two Pointers**
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
 | 1 | Move Zeroes | 🟢 Easy | `move_zeroes.py` | Two Pointers | ✅ |
+| 2 | Move Zeroes | 🟢 Easy | `move_zeroes.py` | Two Pointers | ✅ |
+| 3 | Container with Most Water | 🟡 Medium | `container_with_most_water.py` | Two Pointers | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

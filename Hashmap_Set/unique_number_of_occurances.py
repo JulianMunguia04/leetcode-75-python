@@ -7,4 +7,22 @@ class Solution(object):
         :rtype: bool
         """
         
+        
+        occurances = {}
+        unique = set()
+        
+        for num in arr:
+            if num in occurances:
+                occurances[num] += 1
+            else:
+                occurances[num] = 1
+        
+        for key, value in occurances.items():
+            unique.add(value)
+        
+        if len(unique) < len(occurances):
+            return False
+        
+        return True
+        
 # Time Complexity 

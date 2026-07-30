@@ -21,6 +21,7 @@ This folder contains my Python solutions for problems under the **Hashmap / Set*
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
 | 1 | Find the Difference of Two Arrays | 🟢 Easy | `find_the_difference_of_two_arrays.py` | Two Pointers | ✅ |
+| 2 | Unique Number of Occurances | 🟢 Easy | `unique_number_of_occurances.py` | Hashmap | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

@@ -49,3 +49,4 @@ class Solution(object):
         
         return frequency1 == frequency2 and chars1 == chars2
             
+# Time Complexity

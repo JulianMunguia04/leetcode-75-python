@@ -1,7 +1,11 @@
 # 345 Reverse Vowels of a string, Strings/Arrays
 
 class Solution(object):
-    def reverseVowels(self, s: str) -> str:
+    def reverseVowels(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         vowels = set("aeiouAEIOU")
         s_list = list(s)
         

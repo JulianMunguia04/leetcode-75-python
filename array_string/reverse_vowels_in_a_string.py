@@ -22,3 +22,5 @@ class Solution(object):
             right -= 1
             
         return "".join(s_list)
+
+# Time Complexity O(n)

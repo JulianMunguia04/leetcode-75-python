@@ -22,3 +22,5 @@ class Solution(object):
             l.append(value)
             
         return l
+
+# Time Complexity O(N * K log K), where N is the number of strings and K is the maximum length of a string.

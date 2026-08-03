@@ -27,3 +27,5 @@ class Solution(object):
         
         print(h1, h2)
         return h1 == h2
+
+# Time Complexity: O(n) with n being the number of characters in s

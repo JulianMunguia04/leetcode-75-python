@@ -21,6 +21,7 @@ This folder contains my Python solutions for problems under the **Arrays / Hashi
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
 | 1 | Merge Strings Alternately | 🟢 Easy | `greatest_common_divisor_of_strings.py` | String | ✅ |
+| 2 | Greatest Common Divisor if Strings | 🟢 Easy | `greatest_common_divisor_of_strings.py` | String | ✅ |
 | 5 | Reverse Vowels of a String | 🟢 Easy | `reverse_vowels_of_a_string.py` | String | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  

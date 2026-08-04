@@ -22,3 +22,5 @@ class Solution(object):
             pairs += rows.get(col, 0)
 
         return pairs
+        
+# Time Complexity O(n^2)

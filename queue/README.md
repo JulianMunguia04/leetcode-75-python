@@ -29,6 +29,18 @@ This folder contains my Python solutions for problems under the **Queue** sectio
 ## 📝 Notes
 
 ### Queue
+Queues are one of the simplest data structures:
+
+FIFO (First in, First Out)
+- First person to get in line -> First person served
+- New people always join from the back
+
+#### Operations
+- Enqueue, add to back, O(1)
+- Dequeue, remove from front, O(1)
+- Peek, look at front, O(1)
+- Empty, Check if queue is empty, O(1)
+Can't use a python list becauase dequeue would be a O(n) operation
 
 ---
 

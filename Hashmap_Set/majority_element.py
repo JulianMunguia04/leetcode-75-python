@@ -22,3 +22,5 @@ class Solution(object):
                 largest = nums[i]
 
         return largest
+
+# Time Complexity O(n)

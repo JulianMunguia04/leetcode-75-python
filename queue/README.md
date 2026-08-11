@@ -42,6 +42,49 @@ FIFO (First in, First Out)
 - Empty, Check if queue is empty, O(1)
 Can't use a python list becauase dequeue would be a O(n) operation
 
+#### Python Implemenation
+Use `collections.deque`
+```python
+from collections import deque
+
+queue = deque()
+```
+
+#### Python Operations
+```python
+# Enqueue(add)
+queue.append(5)
+queue.append(10)
+print(queue) # deque([5,10])
+
+# Dequeue
+front = queue.popleft()
+
+print(front) # 5
+
+# Peek
+front = queue[0]
+
+# Empty
+if not queue: 
+  print("Empty")
+```
+#### Visualization
+```
+[3][5][8][10]
+ ^
+ remove here
+
+append(12)
+
+[3][5][8][10][12]
+
+popleft()
+
+[5][8][10][12]
+
+```
+
 ---
 
 ## ⚙️ How to Run

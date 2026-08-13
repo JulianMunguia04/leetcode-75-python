@@ -15,3 +15,5 @@ class Solution(object):
             j += 1
             
         return i == len(s)
+
+# Time Complexity O(n)

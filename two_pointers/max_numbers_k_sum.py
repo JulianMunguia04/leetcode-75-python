@@ -1,7 +1,5 @@
 # 1679 Max Numbers of K-Sum Pairs, Mediu
 
-import collections
-
 class Solution(object):
     def maxOperations(self, nums, k):
         """
@@ -9,16 +7,23 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        counts = collections.Counter()
+        nums.sort()  # Sort the array first
+        left = 0
+        right = len(nums) - 1
         operations = 0
         
-        for num in nums:
-            complement = k - num
-            # Check if the complement exists and has a remaining count
-            if counts[complement] > 0:
+        while left < right:
+            current_sum = nums[left] + nums[right]
+            
+            if current_sum == k:
                 operations += 1
-                counts[complement] -= 1  # Use up one complement
+                left += 1
+                right -= 1
+            elif current_sum < k:
+                left += 1   # Sum is too small, increase the smaller number
             else:
-                counts[num] += 1         # Store current number for future matching
+                right -= 1  # Sum is too big, decrease the larger number
                 
-        return operations      
+        return operations  
+
+# Time Complexity 0(n)

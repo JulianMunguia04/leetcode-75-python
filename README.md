@@ -1,6 +1,6 @@
 # LeetCode 75 Python 🐍
 
-This repository contains my solutions and notes as I complete the **[LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)** study plan to master **Data Structures and Algorithms** for technical interviews.
+This repository contains my solutions and notes as I complete the **[LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)** study plan to master **Data Structures and Algorithms** for technical interviews. (And some extra problems).
 
 ## 📁 Repository Structure
 

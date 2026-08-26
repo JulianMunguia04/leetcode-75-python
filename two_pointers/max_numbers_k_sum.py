@@ -1,4 +1,4 @@
-# 1679 Max Numbers of K-Sum Pairs, Mediu
+# 1679 Max Numbers of K-Sum Pairs, Medium
 
 class Solution(object):
     def maxOperations(self, nums, k):
@@ -7,23 +7,24 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        nums.sort()  # Sort the array first
-        left = 0
-        right = len(nums) - 1
-        operations = 0
         
-        while left < right:
-            current_sum = nums[left] + nums[right]
+        nums.sort()
+
+        l =  0
+        r = len(nums) - 1
+        counter = 0
+
+        while l < r:
+          if (nums[l] + nums[r]) == k:
+            counter += 1
+            l += 1
+            r -= 1
             
-            if current_sum == k:
-                operations += 1
-                left += 1
-                right -= 1
-            elif current_sum < k:
-                left += 1   # Sum is too small, increase the smaller number
-            else:
-                right -= 1  # Sum is too big, decrease the larger number
-                
-        return operations  
+          elif nums[l] + nums[r] > k:
+            r -= 1
+          else:
+            l +=1
+        
+        return counter
 
 # Time Complexity 0(n)

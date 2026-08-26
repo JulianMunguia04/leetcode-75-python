@@ -24,6 +24,7 @@ This folder contains my Python solutions for problems under the **Two Pointers**
 | 1 | Move Zeroes | 🟢 Easy | `move_zeroes.py` | Two Pointers | ✅ |
 | 2 | Is Sequence | 🟢 Easy | `is_sequence.py` | Two Pointers | ✅ |
 | 3 | Container with Most Water | 🟡 Medium | `container_with_most_water.py` | Two Pointers | ✅ |
+| 4 | Max Numbers K Sum | 🟡 Medium | `max_numbers_k_sum.py` | Two Pointers | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

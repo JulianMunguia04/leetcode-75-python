@@ -64,7 +64,7 @@ Complete every problem in the NeetCode Roadmap to:
 | Topic            | Progress |
 | ---------------- | -------- |
 | Arrays & Hashing | ⏳        |
-| Two Pointers     | ⏳        |
+| Two Pointers     | ✅        |
 | Sliding Window   | ⏳        |
 | Stack            | ⏳        |
 | ...              | ...      |

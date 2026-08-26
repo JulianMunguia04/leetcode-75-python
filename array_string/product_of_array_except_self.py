@@ -29,3 +29,5 @@ class Solution(object):
             answer.append(int(product / num))
 
         return answer
+
+# Time Complexity of O(n) where n is the number of elements in the nums array

@@ -25,6 +25,10 @@ This folder contains my Python solutions for problems under the **Arrays / Hashi
 | 3 | Kids With the Greatest Number of Candies | 🟢 Easy | `kids_with_the_greatest_number_of_candies.py` | String | ✅ |
 | 4 | Can Place Flowers | 🟢 Easy | `can_place_flowewrs.py` | String | ✅ |
 | 5 | Reverse Vowels of a String | 🟢 Easy | `reverse_vowels_of_a_string.py` | String | ✅ |
+| 6 | Reverse Words of a String | 🟡 Medium | `reverse_words_of_a_string.py` | String | ✅ |
+| 7 | Product of Array Except Self | 🟡 Medium | `product_of_array_except_self.py` | String | ✅ |
+| 8 | Increasing Triplet Subsequence | 🟡 Medium | `increasing_triplet_subsequence.py` | String | ✅ |
+| 9 | String Compression | 🟡 Medium | `string_compression.py` | String | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

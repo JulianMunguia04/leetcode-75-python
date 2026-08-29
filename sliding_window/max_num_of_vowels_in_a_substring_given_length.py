@@ -31,3 +31,5 @@ class Solution(object):
           maximum = max(maximum, vowelCount)
         
         return maximum
+
+# Time Complexity O(n)

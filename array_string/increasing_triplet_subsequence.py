@@ -19,3 +19,5 @@ class Solution(object):
             return True
         
         return False
+
+# Time Complexity O(n) with n being the amount of integers in nums

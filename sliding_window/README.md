@@ -19,7 +19,8 @@ This folder contains my Python solutions for problems under the **Sliding Window
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Maximum Average Subarray I | 🟢 Easy | `maximum_average_subarray_one.py` | Two Pointers | ✅ |
+| 1 | Maximum Average Subarray I | 🟢 Easy | `maximum_average_subarray_one.py` | Sliding Window | ✅ |
+| 2 | Maximum Number of Vowels in a Substring of Given Length | 🟡 Medium | `max_num_of_vowels_in_a_substring_given_length.py` | Sliding Window | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

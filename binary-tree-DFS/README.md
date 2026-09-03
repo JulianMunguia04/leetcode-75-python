@@ -91,6 +91,60 @@ def dfs(node):
     dfs(node.right)
 ```
 
+### Setup
+Tree Node
+```python
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+```
+
+Manually Creating a Tree
+- Example
+```
+        1
+       / \
+      2   3
+     / \
+    4   5
+```
+In python:
+```python
+root = TreeNode(1)
+
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
+```
+
+View Tree
+```python
+print(root.val)
+
+print(root.left.val)
+print(root.right.val)
+
+print(root.left.left.val)
+print(root.left.right.val)
+```
+
+#### DFS Basic Setup
+```python
+def dfs(node):
+
+    if node is None:
+        return
+
+    print(node.val)
+
+    dfs(node.left)
+    dfs(node.right)
+```
+
 ---
 
 ## ⚙️ How to Run

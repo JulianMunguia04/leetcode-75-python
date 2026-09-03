@@ -44,7 +44,7 @@ For example:
      / \
     4   5
 ```
-In python, LeetCode usually gives you this:
+In python, LeetCode usually gives this:
 ```Python
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -54,6 +54,42 @@ class TreeNode:
 ```
 
 #### Binary Tree - DFS
+Depth first search
+
+Pick a node → go as deep as possible → come back → explore the other side.
+
+For:
+```
+        1
+       / \
+      2   3
+     / \
+    4   5
+```
+DFS might travel:
+```
+1 → 2 → 4
+        ↑
+        back
+      → 5
+        ↑
+        back
+1 → 3
+```
+DFS naturally fits recursion
+
+##### Most Important DFS Pattern
+```
+def dfs(node):
+
+    if node is None:
+        return
+
+    # do something with node
+
+    dfs(node.left)
+    dfs(node.right)
+```
 
 ---
 

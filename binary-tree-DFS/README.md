@@ -30,6 +30,29 @@ This folder contains my Python solutions for problems under the **Binary Tree - 
 
 ## 📝 Notes
 
+### Binary Tree
+Binary tree is a collection of nodes where every node can have:
+- a `val`
+- a `left` child
+- a `right` child
+
+For example:
+```
+        1
+       / \
+      2   3
+     / \
+    4   5
+```
+In python, LeetCode usually gives you this:
+```Python
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+```
+
 #### Binary Tree - DFS
 
 ---

@@ -20,3 +20,5 @@ class Solution(object):
         right = self.maxDepth(root.right)
         
         return 1 + max(left, right)
+
+# Time complexity O(n) where n in the total number of nodes in the binary tree

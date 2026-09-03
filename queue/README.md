@@ -20,6 +20,7 @@ This folder contains my Python solutions for problems under the **Queue** sectio
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
 | 1 | Number of Recent Calls | 🟢 Easy | `number_of_recent_calls.py` | Hashmap | ✅ |
+| 2 | Dota2 Senate | 🟡 Medium | `dota2_senate.py` | Hashmap | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

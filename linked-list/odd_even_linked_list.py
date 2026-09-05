@@ -22,3 +22,5 @@ class Solution:
             
         odd.next = even_head
         return head
+
+# Time Complexity O(n) with n being the number of nodes in the list

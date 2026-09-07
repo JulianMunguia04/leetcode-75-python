@@ -23,6 +23,8 @@ This folder contains my python leetcode solutions for select problems for the to
 | 1 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ✅ |
 | 2 | Odd Even Linked List | 🟡 Medium | `odd_even_linked_list.py` | Linked List | ✅ |
 | 3 | Delete Middle Node of a Linked List | 🟡 Medium | `delete_middle_node_linked_list.py` | Linked List | ✅ |
+| 3 | Maximum Twin Sum of a Linked List | 🟡 Medium | `max_twin_sum_linked_list.py` | Linked List | ⏳ |
+
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

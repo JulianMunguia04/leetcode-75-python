@@ -6,7 +6,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def oddEvenList(self, head: ListNode) -> ListNode:
+    def oddEvenList(self, head):
         if not head or not head.next:
             return head
         

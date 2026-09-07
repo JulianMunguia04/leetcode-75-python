@@ -26,3 +26,5 @@ class Solution(object):
         slow.next = slow.next.next
         
         return dummy.next
+
+# Time Complexity O(n), n being the numbrs of nodes in the linked list

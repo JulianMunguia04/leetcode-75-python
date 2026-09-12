@@ -1,6 +1,6 @@
 # 1004 Max Consecutive Ones III, Sliding Window
 
-def longestOnes(nums: list[int], k: int) -> int:
+def longestOnes(nums, k):
     left = 0
     max_length = 0
     

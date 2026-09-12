@@ -1,7 +1,7 @@
 # 1493 Longest Subarray of 1's After Deleting One Element, Sliding Window, Medium
 
 class Solution:
-    def longestSubarray(self, nums: list[int]) -> int:
+    def longestSubarray(self, nums):
         left = 0
         zero_count = 0
         max_length = 0

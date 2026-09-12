@@ -21,6 +21,8 @@ This folder contains my Python solutions for problems under the **Sliding Window
 |---|----------|-------------|------|---------|--------|
 | 1 | Maximum Average Subarray I | 🟢 Easy | `maximum_average_subarray_one.py` | Sliding Window | ✅ |
 | 2 | Maximum Number of Vowels in a Substring of Given Length | 🟡 Medium | `max_num_of_vowels_in_a_substring_given_length.py` | Sliding Window | ✅ |
+| 3 | Max Consecutive Ones III | 🟡 Medium | `max_consecutive_ones_3.py` | Sliding Window | ✅ |
+| 4 | Longest Subarray of 1's After Deleting One Element | 🟡 Medium | `longest_subarray_of_1s_after_deleting_one_element.py` | Sliding Window | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

@@ -1,7 +1,7 @@
 # 1004 Max Consecutive Ones III, Sliding Window
 
 class Solution(object):
-  def longestOnes(nums, k):
+  def longestOnes(self, nums, k):
         left = 0
         max_length = 0
         

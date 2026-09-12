@@ -18,3 +18,5 @@ class Solution:
             max_length = max(max_length, right - left)
             
         return max_length
+
+# Time Complexity O(n)

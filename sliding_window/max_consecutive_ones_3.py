@@ -16,3 +16,5 @@ def longestOnes(nums: list[int], k: int) -> int:
         max_length = max(max_length, right - left + 1)
         
     return max_length
+
+# Time Complexity O(n)

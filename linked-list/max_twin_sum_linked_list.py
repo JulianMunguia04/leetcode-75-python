@@ -1,7 +1,13 @@
 # 2130. Maximum Twin Sum of a Linked List, Linked List, Medium
 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
 class Solution:
-    def pairSum(self, head: Optional[ListNode]) -> int:
+    def pairSum(self, head):
         # Step 1: Find the middle of the linked list
         slow, fast = head, head
         while fast and fast.next:

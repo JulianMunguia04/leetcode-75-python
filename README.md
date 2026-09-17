@@ -63,10 +63,11 @@ Complete every problem in the NeetCode Roadmap to:
 ## 🌟Progress Tracker
 | Topic            | Progress |
 | ---------------- | -------- |
-| Arrays / String | ✅        |
-| Two Pointers     | ✅        |
-| Sliding Window   | ✅        |
+| Arrays / String  | ✅       |
+| Two Pointers     | ✅       |
+| Sliding Window   | ✅       |
 | Prefix Sum   | ✅        |
+| Hashmap / Set   | ✅        |
 | Stack            | ⏳        |
 | ...              | ...      |
 

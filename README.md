@@ -68,7 +68,7 @@ Complete every problem in the NeetCode Roadmap to:
 | Sliding Window   | ✅       |
 | Prefix Sum   | ✅        |
 | Hashmap / Set   | ✅        |
-| Stack            | ⏳        |
+| Stack            | ✅        |
 | ...              | ...      |
 
 ---

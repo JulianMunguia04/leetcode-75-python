@@ -35,3 +35,5 @@ class Solution:
             second_half = second_half.next
             
         return max_sum
+
+# Time Complexity O(n)

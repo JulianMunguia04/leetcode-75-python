@@ -65,7 +65,7 @@ Complete every problem in the NeetCode Roadmap to:
 | ---------------- | -------- |
 | Arrays / String | ✅        |
 | Two Pointers     | ✅        |
-| Sliding Window   | ⏳        |
+| Sliding Window   | ✅        |
 | Stack            | ⏳        |
 | ...              | ...      |
 

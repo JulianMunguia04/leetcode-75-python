@@ -69,6 +69,7 @@ Complete every problem in the NeetCode Roadmap to:
 | Prefix Sum   | ✅        |
 | Hashmap / Set   | ✅        |
 | Stack            | ✅        |
+| Queue            | ✅        |
 | ...              | ...      |
 
 ---

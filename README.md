@@ -63,7 +63,7 @@ Complete every problem in the NeetCode Roadmap to:
 ## 🌟Progress Tracker
 | Topic            | Progress |
 | ---------------- | -------- |
-| Arrays & Hashing | ✅        |
+| Arrays / String | ✅        |
 | Two Pointers     | ✅        |
 | Sliding Window   | ⏳        |
 | Stack            | ⏳        |

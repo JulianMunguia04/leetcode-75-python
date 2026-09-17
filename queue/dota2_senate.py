@@ -33,4 +33,4 @@ class Solution:
         # Whichever queue still has senators left wins the game
         return "Radiant" if radiant else "Dire"
 
-    
+# Time Complexity O(n)

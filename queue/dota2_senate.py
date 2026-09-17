@@ -3,7 +3,7 @@
 from collections import deque
 
 class Solution:
-    def predictPartyVictory(self, senate: str) -> str:
+    def predictPartyVictory(self, senate):
         n = len(senate)
         
         # Queues to store the indices of the senators
@@ -32,3 +32,5 @@ class Solution:
                 
         # Whichever queue still has senators left wins the game
         return "Radiant" if radiant else "Dire"
+
+    

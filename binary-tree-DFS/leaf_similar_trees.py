@@ -34,3 +34,5 @@ class Solution(object):
         
         # Compare the leaf value sequences of both trees
         return get_leaves(root1) == get_leaves(root2)
+
+# O(T1 + T2) with T1 and T2 being the number of nodes for tree 1 and tree 2 respectively

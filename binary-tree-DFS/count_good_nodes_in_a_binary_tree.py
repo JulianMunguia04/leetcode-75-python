@@ -31,3 +31,5 @@ class Solution(object):
             
         # Start DFS with the root value as the initial maximum path value
         return dfs(root, root.val) if root else 0
+
+# Time Complexity O(n)

@@ -42,3 +42,5 @@ class Solution(object):
             return count
 
         return dfs(root, 0)
+
+# Time Complexity O(n)

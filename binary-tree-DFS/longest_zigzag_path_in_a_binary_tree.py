@@ -41,3 +41,5 @@ class Solution(object):
         dfs(root, False, 0)
         
         return self.max_length
+
+# Time complexity O(n)

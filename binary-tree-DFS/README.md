@@ -23,7 +23,7 @@ This folder contains my Python solutions for problems under the **Binary Tree - 
 | 1 | Maximum Depth of Binary Tree | 🟢 Easy | `maximum_depth_of_binary_tree.py` | BT DFS | ✅ |
 | 2 | Leaf-Similar Trees | 🟢 Easy | `leaf_similar_trees.py` | BT DFS | ✅ |
 | 3 | Count Good Nodes in Binary Tree | 🟡 Medium | `count_good_nodes_in_a_binary_tree.py` | BT DFS | ✅ |
-| 3 | Path Sum 3 | 🟡 Medium | `path_sum_3.py` | BT DFS | ✅ |
+| 4 | Path Sum 3 | 🟡 Medium | `path_sum_3.py` | BT DFS | ✅ |
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do 
 

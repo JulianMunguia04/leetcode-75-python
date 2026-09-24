@@ -25,7 +25,7 @@ This folder contains my Python solutions for problems under the **Binary Tree - 
 | 3 | Count Good Nodes in Binary Tree | 🟡 Medium | `count_good_nodes_in_a_binary_tree.py` | BT DFS | ✅ |
 | 4 | Path Sum 3 | 🟡 Medium | `path_sum_3.py` | BT DFS | ✅ |
 | 5 | Longest ZigZag Path in a Binary Tree | 🟡 Medium | `longest_zigzag_path_in_a_binary_tree.py` | BT DFS | ✅ |
-| 6 | Lowest Common Ancestor (LCA) of a Binary Tree | 🟡 Medium | `lowest_common_ancestor_of_bt.py` | BT DFS | ⏳ |
+| 6 | Lowest Common Ancestor (LCA) of a Binary Tree | 🟡 Medium | `lowest_common_ancestor_of_bt.py` | BT DFS | ✅ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do 

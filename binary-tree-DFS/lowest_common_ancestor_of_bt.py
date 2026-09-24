@@ -22,3 +22,5 @@ class Solution(object):
             
         # Otherwise, return whichever subtree returned a non-null node
         return left if left else right
+
+# Time Complexity O(n)

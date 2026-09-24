@@ -70,6 +70,7 @@ Complete every problem in the NeetCode Roadmap to:
 | Hashmap / Set   | ✅        |
 | Stack            | ✅        |
 | Queue            | ✅        |
+| Binary Tree - DFS            | ✅        |
 | ...              | ...      |
 
 ---

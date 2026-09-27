@@ -30,3 +30,5 @@ class Solution(object):
             
         dfs(root, 0)
         return res
+
+# Time Complexity O(n)

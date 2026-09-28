@@ -71,7 +71,7 @@ Complete every problem in the NeetCode Roadmap to:
 | Stack            | ✅        |
 | Queue            | ✅        |
 | Binary Tree - DFS            | ✅        |
-| Binary Tree - DFS            | ⏳        |
+| Binary Tree - BFS            | ⏳        |
 | ...              | ...      |
 
 ---

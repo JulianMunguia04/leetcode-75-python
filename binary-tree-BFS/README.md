@@ -21,7 +21,7 @@ This folder contains my Python solutions for problems under the **Binary Tree - 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
 | 1 | Binary Tree Right Side View | 🟢 Easy | `binary_tree_right_side_view.py` | BT DFS | ✅ |
-| 2 | Leaf-Similar Trees | 🟢 Easy | `maximum_level_sum_binary_tree.py` | BT DFS | ⏳ |
+| 2 | Leaf-Similar Trees | 🟢 Easy | `maximum_level_sum_binary_tree.py` | BT DFS | ✅ |
 
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  

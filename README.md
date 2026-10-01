@@ -63,16 +63,27 @@ Complete every problem in the NeetCode Roadmap to:
 ## 🌟Progress Tracker
 | Topic            | Progress |
 | ---------------- | -------- |
-| Arrays / String  | ✅       |
-| Two Pointers     | ✅       |
-| Sliding Window   | ✅       |
-| Prefix Sum   | ✅        |
-| Hashmap / Set   | ✅        |
-| Stack            | ✅        |
-| Queue            | ✅        |
-| Binary Tree - DFS            | ✅        |
-| Binary Tree - BFS            | ✅        |
-| ...              | ...      |
+| Arrays / String  | ⏳       |
+| Two Pointers     | ⏳       |
+| Sliding Window   | ⏳       |
+| Prefix Sum   | ⏳        |
+| Hashmap / Set   | ⏳        |
+| Stack            | ⏳        |
+| Queue            | ⏳        |
+| Linked List            | ⏳        |
+| Binary Tree - DFS            | ⏳        |
+| Binary Tree - BFS            | ⏳        |
+| Binary Search Tree           | ⏳        |
+| Graphs - DFS            | ⏳        |
+| Graphs - BFS            | ⏳        |
+| Heap / Priority Queue            | ⏳        |
+| Binary Search            | ⏳        |
+| Backtracking            | ⏳        |
+| DP - Multidimensional            | ⏳        |
+| Bit Manipulation            | ⏳        |
+| Trie            | ⏳        |
+| Intervals            | ⏳        |
+| Monotonic Stack            | ⏳        |
 
 ---
 

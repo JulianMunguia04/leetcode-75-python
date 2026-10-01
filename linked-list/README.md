@@ -20,10 +20,10 @@ This folder contains my python leetcode solutions for select problems for the to
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ✅ |
-| 2 | Odd Even Linked List | 🟡 Medium | `odd_even_linked_list.py` | Linked List | ✅ |
-| 3 | Delete Middle Node of a Linked List | 🟡 Medium | `delete_middle_node_linked_list.py` | Linked List | ✅ |
-| 4 | Maximum Twin Sum of a Linked List | 🟡 Medium | `max_twin_sum_linked_list.py` | Linked List | ✅ |
+| 1 | Reverse Linked List | 🟢 Easy | `reverse_linked_list.py` | Linked List | ⏳ |
+| 2 | Odd Even Linked List | 🟡 Medium | `odd_even_linked_list.py` | Linked List | ⏳ |
+| 3 | Delete Middle Node of a Linked List | 🟡 Medium | `delete_middle_node_linked_list.py` | Linked List | ⏳ |
+| 4 | Maximum Twin Sum of a Linked List | 🟡 Medium | `max_twin_sum_linked_list.py` | Linked List | ⏳ |
 
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  

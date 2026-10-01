@@ -22,7 +22,7 @@ This folder contains my Python solutions for problems under the **stack** sectio
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Removing Stars From a String | 🟡 Medium | `removing_stars_from_a_string.py` | Stack | ✅ |
+| 1 | Removing Stars From a String | 🟡 Medium | `removing_stars_from_a_string.py` | Stack | ⏳ |
 
 🟢 = Easy 🟡 = Medium 🔴 = Hard  
 ✅ = Completed 🔄 = In Progress ⏳ = To Do

@@ -47,6 +47,61 @@ nums.append(3)
 ```
 Memory grows automatically.
 
+#### Arrays
+An ordered collection of elements, in python this usually refers to a **list**
+
+```python
+nums = [1,2,3,4,5]
+```
+
+A python list is basically a dynamic array
+Python arrays support indexing which is a O(1)(Constant Time) to access any element we have the index for.
+
+```python
+nums[0]     # The first element
+nums[2]     # The third element
+nums[-1]    # The last element
+```
+
+##### Array Operations
+Access an element by index, Time: O(1)
+```python
+nums[i]
+```
+
+Change an element, Time O(1)
+```python
+nums[1] = 10
+```
+
+Add to the end, Time: O(1) if there is space allocated, if not it is O(n) because it needs to be rewriten completely
+```python
+nums.append(10)
+```
+
+Remove from the end, Time: O(1)
+```python
+nums.pop()
+
+# Can also return this value
+x = nums.pop()
+
+# And use index to pop
+nums.pop(1) removes element at index 1
+# This is O(n) linear time
+```
+
+Insert, usually O(n) becuase elements need to shift
+```python
+nums.insert(i, x)
+```
+
+Remove by value, Time: O(n)
+```python
+nums.remove(5)
+```
+
+
 ---
 
 ## ⚙️ How to Run

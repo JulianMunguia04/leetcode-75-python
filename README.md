@@ -93,4 +93,17 @@ Each folder may include a README.md summarizing:
 - Common Patterns
 - Key insights for that topic
 
+##
+
+### Python Fluency
+
+```python
+
+arr = [1,2,3]
+arr.append(4)
+arr.pop()
+arr.sort()
+sorted_array = sorted(arr)
+```
+
 ### Created by Julian Munguia

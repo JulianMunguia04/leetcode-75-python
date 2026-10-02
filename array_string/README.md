@@ -101,6 +101,14 @@ Remove by value, Time: O(n)
 nums.remove(5)
 ```
 
+Check whether something exists, O(n)
+```python
+if 5 in nums:
+    ...
+```
+Better to use a set
+
+
 
 ---
 

@@ -108,6 +108,9 @@ if 5 in nums:
 ```
 Better to use a set
 
+#### Strings
+A string is a linear data structure that represents a sequential collection of characters. Unlike **primitive** data types like intergers or booleans that store a single value, a string acts as a container for storing and manipulating textual information.
+
 
 
 ---

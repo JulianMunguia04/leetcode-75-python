@@ -111,8 +111,71 @@ Better to use a set
 #### Strings
 A string is a linear data structure that represents a sequential collection of characters. Unlike **primitive** data types like intergers or booleans that store a single value, a string acts as a container for storing and manipulating textual information.
 
-Strings are immutable sequences of characters
+```python
+s = "Hello"
 
+len(s)
+s[0]    #First element
+s[-1]   #Last Element
+s[1:4]  #Second element to third
+```
+
+Strings are an **immutable** sequence of characters
+```python
+s[0] = "H"  # TypeError
+
+# Instead
+
+s = "H" + s[1:]
+```
+For a lot of modifications it's best to concatenate with an array and then join
+```python
+chars = []
+
+for c in s:
+    chars.append(c.upper())
+
+results =  "".join(chars)
+```
+
+##### String Operations
+Searching
+```python
+s = "hello world"
+
+"hello" in s    # True
+"xyz" in s      # False
+
+s.find("world") # 6 (Starting index)
+s.find("xyz")   # -1 (Not found)
+```
+
+Counting
+```python
+s = "hello world"
+s.count("l")    # 3
+```
+
+Frequency counter (best for interview problems)
+```python
+from collections import Counter
+
+s = "hello world"
+
+freq = Counter(s)
+
+print(freq)
+# Counter({'l': 3, 'o': 2, ...})
+
+# Or Manually
+
+freq2 = {}
+
+for c in s:
+    freq2[c] = freq2.get(c, 0) + 1
+```
+
+String Methods Worth Memorizing
 ---
 
 ## ⚙️ How to Run

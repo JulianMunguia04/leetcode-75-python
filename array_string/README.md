@@ -233,6 +233,12 @@ for i in range(len(s), - 1, -1, -1):
 for i, c in enumerate(s):
     print(i, c)
 ```
+
+Comparing Strings
+```python
+"abc" == "abc"     # True
+"abc" != "abd"     # True
+```
 ---
 
 ## ⚙️ How to Run

@@ -185,6 +185,8 @@ for c in s:
 
 String Methods Worth Memorizing
 ```python
+len(s)      # Length of string
+
 s.lower()   # Lowercase
 s.upper()   # Uppercase
 

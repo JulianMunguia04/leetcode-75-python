@@ -108,6 +108,14 @@ if 5 in nums:
 ```
 Better to use a set
 
+Enumerate, for using index and value
+```python
+fruits = ["apple", "banana", "cherry"]
+
+for index, fruit in enumerate(fruits):
+    print(f"Index {index}: {fruit}")
+```
+
 #### Strings
 A string is a linear data structure that represents a sequential collection of characters. Unlike **primitive** data types like intergers or booleans that store a single value, a string acts as a container for storing and manipulating textual information.
 
@@ -205,6 +213,25 @@ s.isspace()         # return true only if it is white space (spaces, tabs \t or 
 
 "-".join(["a", "b", "c"])
 # "a-b-c"
+```
+
+Iterating through strings
+```python
+# Most common
+for c in s:
+    print(c)
+
+# With indexes
+for i in range(len(s)):
+    print(i, s[i])
+
+# Both directions
+for i in range(len(s), - 1, -1, -1):
+    prit(s[i])
+
+# Indexes and Characters
+for i, c in enumerate(s):
+    print(i, c)
 ```
 ---
 

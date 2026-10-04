@@ -176,6 +176,36 @@ for c in s:
 ```
 
 String Methods Worth Memorizing
+```python
+s.lower()   # Lowercase
+s.upper()   # Uppercase
+
+s.split()   # Splits into a list based on a character default is " ", but can put any in s.split(",")
+"".join(words)  #Joins into a string from a list
+
+s.replace("a", "b") #Replaces first with second
+
+s.startswith("pre") # Returns true if string begins with certain characters (case sensitive)
+s.endswith("ing")   # Retrun true if ends with certain characters
+
+s.find("abc")       # Finds where this sequence is and returns the lowest index
+s.count("a")        # Returns count that it appears (case sensitive)
+
+s.isalpha()         # Returns true only contains hars A-Z a-z
+s.isdigit()         # Returns true only if contains only numbers
+s.isalnum()         # Retruns true only if alhpa or digit
+s.isspace()         # return true only if it is white space (spaces, tabs \t or newlines \n)
+
+# Examples
+"  hello  ".strip()
+# "hello"
+
+"hello world".split()
+# ["hello", "world"]
+
+"-".join(["a", "b", "c"])
+# "a-b-c"
+```
 ---
 
 ## ⚙️ How to Run

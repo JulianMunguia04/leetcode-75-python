@@ -20,7 +20,7 @@ This folder contains my Python solutions for problems under the **Arrays / Hashi
 
 | # | Problem | Difficulty | File | Topics | Status |
 |---|----------|-------------|------|---------|--------|
-| 1 | Merge Strings Alternately | 🟢 Easy | `greatest_common_divisor_of_strings.py` | String | ⏳ |
+| 1 | Merge Strings Alternately | 🟢 Easy | `merge_strings_alternately.py` | String | ✅ |
 | 2 | Greatest Common Divisor if Strings | 🟢 Easy | `greatest_common_divisor_of_strings.py` | String | ⏳ |
 | 3 | Kids With the Greatest Number of Candies | 🟢 Easy | `kids_with_the_greatest_number_of_candies.py` | String | ⏳ |
 | 4 | Can Place Flowers | 🟢 Easy | `can_place_flowewrs.py` | String | ⏳ |

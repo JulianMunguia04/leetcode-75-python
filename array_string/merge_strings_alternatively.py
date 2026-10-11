@@ -18,3 +18,5 @@ class Solution(object):
         w.extend(word2[len(word1):])
 
         return "".join(w)
+
+# Time Complexity O(n)

@@ -37,6 +37,7 @@ This folder contains my Python solutions for problems under the **Two Pointers**
 The Two Pointer Technique is an algorithmic pattern where two variables (pointers/indexes) traverse a data structure (usually an array or string) instead of using nested loops.
 
 Instead of a nested loop which is O(n^2) we can do two pointers as follows for O(n):
+
 ```python
 left = 0
 right = len(nums) - 1
@@ -45,6 +46,24 @@ while left < right
     ...
 ```
 
+##### 4 Main Patterns
+Opposite Directions (Converging)
+- Pointers start at opposite extremes and move toward each other until they meet.
+- **Signals:** The input is sorted, you need to find pairs, or the problem involves symmetry
+- **Classic Problems:** Two Sum II (Sorted Input), Valid Palindrome, Container With Most Water.
+
+```python
+def opposite_direction(arr):
+    left, right = 0, len(arr) - 1
+    while left < right:
+        current_sum = arr[left] + arr[right]
+        if current_sum == target:
+            return [left, right]
+        elif current_sum < target:
+            left += 1  # Move rightward to increase the sum
+        else:
+            right -= 1 # Move leftward to decrease the sum
+```
 ---
 
 ## ⚙️ How to Run

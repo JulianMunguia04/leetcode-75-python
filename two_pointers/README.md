@@ -64,6 +64,14 @@ def opposite_direction(arr):
         else:
             right -= 1 # Move leftward to decrease the sum
 ```
+
+Fast and Slow (The "Tortoise and Hare")
+
+
+Read / Write (In-Place Modification)
+
+Two Arrays / Iterators (Parallel)
+
 ---
 
 ## ⚙️ How to Run

@@ -85,8 +85,43 @@ def opposite_direction(arr, target):
 ```
 
 Read / Write (In-Place Modification)
+- **Concept:**** Both pointers start at the beginning of the same data structure and move in the same direction. One pointer expands the boundary while the other drags behind to compress it or mark an write-boundary.
+- **Signals:** The problem asks to evaluate a continuous subarray or substring matching a criteria, or requires modifying an array in-place to track unique values.
+- **Classic Problems:** Longest Substring Without Repeating Characters, Minimum Size Subarray Sum, Remove Duplicates from Sorted Array, Move Zeroes.
+
+```python
+def same_direction(nums):
+    if not nums:
+        return 0
+    slow = 0  # Tracks the boundary of valid elements
+    for fast in range(1, len(nums)):
+        if nums[fast] != nums[slow]:
+            slow += 1
+            nums[slow] = nums[fast]  # Overwrite in-place
+    return slow + 1
+```
 
 Two Arrays / Iterators (Parallel)
+- **Concept:** One pointer is assigned to the first array, and a completely separate pointer is assigned to the second array. They move independently based on comparisons between the two current items.
+- **Signals:** You are given two separate sorted lists/arrays and need to combine them, intersect them, or find relative differences between them efficiently.
+- **Classic** Problems: Merge Sorted Array, Intersection of Two Arrays, Minimum Common Value, Backspace String Compare.
+
+```python
+def two_arrays(arr1, arr2):
+    p1, p2 = 0, 0
+    merged = []
+    while p1 < len(arr1) and p2 < len(arr2):
+        if arr1[p1] <= arr2[p2]:
+            merged.append(arr1[p1])
+            p1 += 1
+        else:
+            merged.append(arr2[p2])
+            p2 += 1
+    # Append remaining chunks
+    merged.extend(arr1[p1:])
+    merged.extend(arr2[p2:])
+    return merged
+```
 
 ---
 

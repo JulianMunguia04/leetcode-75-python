@@ -48,7 +48,7 @@ while left < right
 
 ##### 4 Main Patterns
 Opposite Directions (Converging)
-- Pointers start at opposite extremes and move toward each other until they meet.
+- **Concept:** Pointers start at opposite extremes and move toward each other until they meet.
 - **Signals:** The input is sorted, you need to find pairs, or the problem involves symmetry
 - **Classic Problems:** Two Sum II (Sorted Input), Valid Palindrome, Container With Most Water.
 
@@ -66,7 +66,23 @@ def opposite_direction(arr):
 ```
 
 Fast and Slow (The "Tortoise and Hare")
+- **Concept:** Pointers start at opposite extremes of a linear collection and move inward toward each other until they meet.
+- **Signals:** The input array is sorted, you need to find pairs/triplets matching a constraint, or the problem involves checking for symmetry (like a palindrome).
+- **Classic Problems:** Two Sum II (Sorted), Valid Palindrome, 3Sum, Container With Most Water, Reverse String.
 
+```python
+def opposite_direction(arr, target):
+    left, right = 0, len(arr) - 1
+    while left < right:
+        current_sum = arr[left] + arr[right]
+        if current_sum == target:
+            return [left, right]
+        elif current_sum < target:
+            left += 1  # Move rightward to increase the sum
+        else:
+            right -= 1 # Move leftward to decrease the sum
+    return []
+```
 
 Read / Write (In-Place Modification)
 

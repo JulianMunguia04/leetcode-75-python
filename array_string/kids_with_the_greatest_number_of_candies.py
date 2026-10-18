@@ -22,3 +22,5 @@ class Solution(object):
                 most_candies.append(False)
                 
         return most_candies
+
+# Time complexity O(n)

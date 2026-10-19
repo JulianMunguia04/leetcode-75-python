@@ -110,6 +110,11 @@ def variable_sliding_window(arr):
     return max_len
 ```
 
+##### Critical Interview Edge Cases
+- **Empty or Small Inputs**: Check if `len(arr) < k` or if the string is empty `""` right at the beginning.
+- **Off-by-One Errors**: The length of a sliding window bounded by pointers `l` and `r` (inclusive) is always `r - l + 1`.
+- **Negative Numbers**: Traditional sliding window assumptions often break down if an array contains negative numbers (e.g., if you shrink `l` because a sum is "too big", but adding a negative number could have actually brought the sum down later). If negatives are present, you might need Prefix Sums or Dynamic Programming instead.
+
 ---
 
 ## ⚙️ How to Run

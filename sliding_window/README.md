@@ -59,6 +59,31 @@ Find questions like
 - window
 - continuous sequence
 
+##### Two Major Implementations
+**Fixed-Size Sliding Window**
+- Used when the problem explicitely specifies the length of the window.
+- Grow the window to size K, then slide it forward by adding one element to the right and subtracting one from the left
+
+```python 
+def fixed_sliding_window(arr, k):
+    # 1. Initialize the running state for the first window
+    current_window_state = sum(arr[:k])  # Example state: a sum
+    max_state = current_window_state
+    
+    # 2. Slide the window from index k to the end of the array
+    for r in range(k, len(arr)):
+        # Add the incoming element (right pointer)
+        current_window_state += arr[r]
+        # Remove the outgoing element (left pointer, which is r - k)
+        current_window_state -= arr[r - k]
+        
+        # 3. Update your result
+        max_state = max(max_state, current_window_state)
+        
+    return max_state
+```
+
+
 ---
 
 ## ⚙️ How to Run

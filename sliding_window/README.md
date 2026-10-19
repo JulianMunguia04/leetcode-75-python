@@ -83,6 +83,32 @@ def fixed_sliding_window(arr, k):
     return max_state
 ```
 
+**Variable-Size Sliding Window**
+- Used when the window size depends on a specific constraint (e.g., "find the longest subarray wiht at most 2 distinct chars")
+- Use two pointers, `l` (left) and `r` (right). Expand `r` to explore. The momenet the window becomes invalid (violates the constraint), shrink `l` until it becomes valid again.
+
+```python
+def variable_sliding_window(arr):
+    l = 0
+    max_len = 0
+    window_state = {} # Often a hash map or set to track frequencies/elements
+
+    for r in range(len(arr)):
+        # 1. Add the right element to the current state
+        window_state[arr[r]] = window_state.get(arr[r], 0) + 1
+        
+        # 2. Shrink the window from the left while the condition is violated
+        while condition_violated(window_state):
+            window_state[arr[l]] -= 1
+            if window_state[arr[l]] == 0:
+                del window_state[arr[l]]
+            l += 1 # Shrink window
+            
+        # 3. Update global maximum (window is valid here)
+        max_len = max(max_len, r - l + 1)
+        
+    return max_len
+```
 
 ---
 
